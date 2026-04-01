@@ -1,4 +1,6 @@
 # Blog-universidad
 ## Estudiantes:
+* Geremy Tablante
 * Francisco Rodriguez
-* Jose Guaran
+* Jose Gabriel Guaran
+* Jose Alejandro Padrino

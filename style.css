@@ -1,15 +1,32 @@
+@font-face {
+    font-family: 'KG Teacher Braddy';
+    src: url(img/KGTeacherBrady.ttf);
 
+    font-family: 'Astonpoliz';
+    src: url(img/Astonpoliz.ttf);
+}
 
 body {
-    background-color: rosybrown;
-    font-family: Arial;
+    font-family: 'Astonpoliz';
+    font-size: 20px;
 }
 
 h1 {
-    color: white;
+    text-align: center;
+    /* width: 300px;
+    padding: 25px;
+    margin: 50px auto;
+    box-sizing: border-box; */
+}
+h2 {
+    text-align: center;
 }
 
-p {
-    font-family: italic;
-    color: white;
+li {
+    margin-bottom: 10px;
 }
+
+.integrantes { 
+    text-align: center;
+}
+
