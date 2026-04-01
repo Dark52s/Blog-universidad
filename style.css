@@ -9,6 +9,7 @@
 body {
     font-family: 'Astonpoliz';
     font-size: 20px;
+    width: 100;
 }
 
 h1 {
@@ -28,5 +29,19 @@ li {
 
 .integrantes { 
     text-align: center;
+}
+
+.code {
+    background-color: #666666; /* Fondo gris */
+    padding: 2px 4px; /* Espaciado interno */
+    font-family: monospace; /* Fuente monoespaciada */
+    border-radius: 3px; /* Bordes redondeados */
+    color: white;
+}
+
+img{
+    width: 100;
+    height: auto;
+    display: block;
 }
 

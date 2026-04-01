@@ -83,7 +83,7 @@
                 <strong>Servidor:</strong> Es una máquina o programa potente que espera peticiones, las procesa 
                 y entrega una respuesta (ejemplo: los servidores de Google o Amazon).    
             </li>
-            
+
             <li>
                 <strong>Petición (Request):</strong> El mensaje que envía el cliente solicitando algo (una web, 
                 un archivo, un dato).    
@@ -95,15 +95,16 @@
             </li>
         </ul>
         <img src="img/cliente_servidor.jpg" alt="sin referencia :/">
+
         <h3>Arquitectura de 3 capas: Datos, Negocio y Presentacion:</h3>
         <ul>
             <li>
-                La Capa de datos: Es el mensaje que devuelve el servidor con la información solicitada o un 
+                <strong>La Capa de datos: </strong> Es el mensaje que devuelve el servidor con la información solicitada o un 
                 error.
             </li>
             
             <li>
-                La Capa de Negocio: Actúa como el núcleo o "cerebro" del sistema, situándose entre la 
+                <strong>La Capa de Negocio:</strong> Actúa como el núcleo o "cerebro" del sistema, situándose entre la 
                 presentación y los datos. Aquí es donde se definen todas las reglas, algoritmos y validaciones 
                 que hacen que la aplicación funcione según lo planeado. Recibe las peticiones del usuario, 
                 procesa la información aplicando la lógica necesaria y decide qué datos deben ser consultados o 
@@ -111,39 +112,45 @@
             </li>
             
             <li>
-                La Capa de Datos: Es la encargada de la persistencia y gestión de la información en el sistema. 
-                Su responsabilidad exclusiva es almacenar, recuperar y actualizar los datos en una base de datos 
-                o sistema de archivos de forma segura y eficiente. Esta capa no conoce las reglas del negocio ni 
-                cómo se ve la interfaz; simplemente responde a las órdenes de la capa de negocio para entregar o 
-                guardar la información solicitada de manera organizada.
+                <strong>La Capa de Datos:</strong> Es la encargada de la persistencia y gestión de la 
+                información en el sistema. Su responsabilidad exclusiva es almacenar, recuperar y actualizar 
+                los datos en una base de datos o sistema de archivos de forma segura y eficiente. Esta capa no 
+                conoce las reglas del negocio ni cómo se ve la interfaz; simplemente responde a las órdenes de 
+                la capa de negocio para entregar o guardar la información solicitada de manera organizada.
             </li>
         </ul>
         <h3>Creacion y configuracion de un sitio web:</h3>
-        <ul>
-            
-            <li><p>La creación de un sitio web comienza con el entendimiento de que este es, en esencia,
+            <p>
+                La creación de un sitio web comienza con el enWebtendimiento de que este es, en esencia,
                  un conjunto de archivos digitales alojados en una computadora conectada permanentemente 
                  a la red, llamada servidor. Para que este contenido sea accesible, se requiere de un 
                  Hosting (alojamiento), que es el espacio físico o virtual donde residen los datos, y 
                  un Dominio, que funciona como la dirección legible (ej. google.com) que apunta a la 
                  dirección IP técnica de dicho servidor.
-            </p></li>
-            
-            <li><p>La configuración inicial implica vincular estos dos elementos mediante los DNS 
+            </p>
+            <p>
+                La configuración inicial implica vincular estos dos elementos mediante los DNS 
                 (Sistema de Nombres de Dominio), que actúan como un directorio que traduce el nombre del 
                 dominio en la ubicación exacta del servidor. Una vez establecida la conexión, el servidor
                  se encarga de procesar las peticiones de los usuarios y enviar los archivos 
                  correspondientes al navegador del cliente, donde se interpretan para mostrar la interfaz
-                 visual.</p></li>
-            <p><strong>Componentes clave:</strong></p>
-            <li>Servidor Web: Software (como Apache o Nginx) que gestiona el tráfico y entrega los 
-                archivos al usuario.</li>
+                 visual.
+            </p>
+            <h3>Componentes clave</h3>
+            <li>
+                <strong>Servidor Web:</strong> Software (como Apache o Nginx) que gestiona el tráfico y entrega los 
+                archivos al usuario.
+            </li>
             
-            <li>Protocolo HTTP/HTTPS: El lenguaje de comunicación que permite la transferencia segura de
-                 datos entre el navegador y el servidor.</li>
+            <li>
+                <strong>Protocolo HTTP/HTTPS:</strong> El lenguaje de comunicación que permite la transferencia segura de
+                 datos entre el navegador y el servidor.
+            </li>
             
-            <li>Base de Datos: Estructura opcional para almacenar información dinámica, como perfiles de 
-                usuario o inventarios.</li>
+            <li>
+                <strong>Base de Datos</strong> Estructura opcional para almacenar información dinámica, como perfiles de 
+                usuario o inventarios.
+            </li>
         </ul>
 
         
@@ -152,46 +159,39 @@
         
     </article>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <hr>
-    <h3>Que es HTML:</h3>
-    <p>
-        Un HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para definir 
-        la estructura y el contenido de las páginas web mediante un sistema de etiquetas que actúan 
-        como el esqueleto del sitio. Estas etiquetas organizan elementos como encabezados, párrafos, 
-        enlaces e imágenes,permitiendo que los navegadores interpreten y presenten la información 
-        de forma jerárquica y legible.
-    </p>
+    <article>
+        <h3>Que es HTML:</h3>
+        <p>
+            HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para definir 
+            la estructura y el contenido de las páginas web mediante un sistema de etiquetas que actúan 
+            como el esqueleto del sitio. Estas etiquetas organizan elementos como encabezados, párrafos, 
+            enlaces e imágenes,permitiendo que los navegadores interpreten y presenten la información 
+            de forma jerárquica y legible.
+        </p>
+        <h3>Estrucura de un documento HTML</h3>
+        <p>
+            La estructura básica de un documento HTML5 comienza con
+            <span class="code">&lt;!DOCTYPE HTML&gt;</span> html para definir la versión, seguida de la etiqueta
+            raíz "html". Se divide en "head" (metadatos, título, enlaces a estilos) y "body" (contenido visible 
+            como texto, imágenes y enlaces). Es esencial para la correcta visualización en navegadores y SEO
+        </p>
+        
+         <h3>Etiquetas</h3>
+         <h2>Definicion Estructuracion de etiquetas</h2>
+         <ul>
+            <li> <span class="code">html:</span> engloba todo el documento </li>
+               <P>BODY: alberga el contenido visible</P>
+               <p>A: utilizado para crear hipervínculos</p>
+               <P>TABLE: define una tabla para organizar datos estructurados </P>
+               <p>Input: es el elemento principal para crear campos interactivos en formularios</P>
+                <p>legend</p>
 
-    
 
+
+            
+         </ul>
+    </article>
     
 
     
