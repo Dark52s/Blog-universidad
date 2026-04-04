@@ -99,7 +99,7 @@
                 un archivo, un dato).</p> 
             </li>
     
-            <li>
+            <li>https://prod.liveshare.vsengsaas.visualstudio.com/join?2AA5476F87E952AFA248D0BAE4908053BA28
                 <p><strong>Respuesta (Response):</strong> El mensaje que devuelve el servidor con la información solicitada o un 
                 error.</p>    
             </li>
@@ -171,6 +171,8 @@
 
     </article>
     
+
+
     <hr>
 
     <!-- CONTENIDO 2 -->
@@ -189,31 +191,35 @@
 
         <h3>Estrucura de un documento HTML</h3>
         <p>
-            La estructura básica de un documento HTML5 comienza con
-            <span class="code">&lt;!DOCTYPE HTML&gt;</span> html para definir la versión, seguida de la etiqueta
-            raíz "html". Se divide en "head" (metadatos, título, enlaces a estilos) y "body" (contenido visible 
-            como texto, imágenes y enlaces). Es esencial para la correcta visualización en navegadores y SEO.
+            La estructura básica de un documento HTML5 comienza con <span class="code">&lt;!DOCTYPE HTML&gt;</span> 
+            para indicar que es un documento HTML, ademas, permite elegir la version  que es utilizara, seguida de 
+            la etiqueta raíz <span class="code">&lt;html&gt;</span> que indica donde comienza y termina el codigo HTML. 
+            La siguiente etiquea es <span class="code">&lt;head&gt;</span>(metadatos, título, enlaces a estilos) por ultimo
+            <span class="code">&lt;body&gt;</span> (contenido visible como texto, imágenes y enlaces). Es esencial 
+            para la correcta visualización en navegadores y SEO.
         </p>
         <img src="img/ejemplo estructura.png" alt="sin referencias..">
         
-        
-         <h3>Etiquetas</h3>
+         
+         <h3>Lista de Etiquetas</h3>
          <ul>
             <li> 
                 <p><span class="code">&lt;html&gt;</span>: Engloba todo el documento e indica al navegador 
-                cual es el codigo html.</p>
+                cual es el codigo html. Tiene su respectiva etiqueta de cierre, ademas, posee el atributo
+                <span class="code">xmlns</span>para especificar el namespace XML del documento, 
+                indicando que el documento sigue las especificaciones XHTML.</p>
             </li>
             <li>
                 <p><span class="code">&lt;head&gt;</span>: Es un contenedor esencial situado al inicio del documento, 
                 justo antes del body. Este se utiliza para indicar informacion de la pagina como su nombre,
-                lenguaje o guardar metadatos en general.</p>
+                idioma o guardar metadatos en general.</p>
             </li>
             <li>
                 <p><span class="code">&lt;body&gt;</span>: Alberga el contenido visible.</p>
             </li>
 
             <li>
-                <p><span class="code">&lt;a&gt;</span>: Utilizado para crear hipervínculos</p>
+                <p><span class="code">&lt;a&gt;</span>: Utilizado para crear hipervínculos.</p>
             </li>
 
             <li>
@@ -236,31 +242,32 @@
             <li>
                 <p><span class="code">&lt;fieldset&gt;</span>: Agrupa elementos relacionados dentro de un 
                 formulario, creando visualmente un borde contenedor que mejora la estructura, organización 
-               y accesibilidad</p>  
+               y accesibilidad.</p>  
+
             </li>
             
             <li>
-              <p><span class="code">&lt;textarea&gt;</span>:crea un campo de entrada de texto de 
-             varias líneas</p>  
+              <p><span class="code">&lt;textarea&gt;</span>: Crea un campo de entrada de texto de 
+             varias líneas.</p>  
             </li>
 
              <li>
-              <p><span class="code">&lt;select&gt;</span>:crea un menú desplegable para 
-                seleccionar una o varias opciones definidas por etiquetas</p>  
+              <p><span class="code">&lt;select&gt;</span>: Crea un menú desplegable para 
+                seleccionar una o varias opciones definidas por etiquetas.</p>  
             </li>
-
+            
             <li>
               <p><span class="code">&lt;option&gt;</span>: Se utiliza principalmente en 
                 formularios para recopilar datos, enviando el atributo value de la opción 
-                seleccionada al servidor</p>  
+                seleccionada al servidor.</p>  
             </li>
 
              <li>
-              <p><span class="code">&lt;title&gt;</span>: Crea un titulo para la pagina html</p>  
+              <p><span class="code">&lt;title&gt;</span>: Crea un titulo para la pagina html.</p>  
             </li>
 
              <li>
-              <p><span class="code">&lt;p&gt;</span>: Define que lo que esta adentro de el sera un solo parrafo</p>  
+              <p><span class="code">&lt;p&gt;</span>: Define que lo que esta adentro de el sera un solo parrafo.</p>  
             </li>
 
             <li>
@@ -268,63 +275,83 @@
             </li>
 
              <li>
-              <p><span class="code">&lt;td&gt;</span>:define una celda estándar dentro de una tabla que contiene datos</p>  
+              <p><span class="code">&lt;td&gt;</span>:Define una celda estándar dentro de una tabla que contiene datos.</p>  
             </li>
 
             <li>
-              <p><span class="code">&lt;button&gt;</span>:crea botones clickeables para formularios, 
-              acciones en la página (JavaScript) o navegación</p>  
+              <p><span class="code">&lt;button&gt;</span>: Crea botones clickeables para formularios, 
+              acciones en la página (JavaScript) o navegación.</p>  
             </li>
 
             <li>
-              <p><span class="code">&lt;table&gt;</span>:Define el inicio y fin de la tabla</p>  
+              <p><span class="code">&lt;table&gt;</span>:Define el inicio y fin de la tabla.</p>  
             </li>
 
             <li>
-              <p><span class="code">&lt;style&gt;</span>:permite incrustar código CSS 
-               directamente dentro de un archivo HTML</p>  
+              <p><span class="code">&lt;style&gt;</span>: Permite incrustar código CSS 
+               directamente dentro de un archivo HTML.</p>  
             </li>
 
             <li>
-              <p><span class="code">&lt;br&gt;</span>: se utiliza para insertar un salto de línea en el texto</p>  
+              <p><span class="code">&lt;br&gt;</span>: Se utiliza para insertar un salto de línea en el texto.</p>  
             </li>
     
              <li>
-              <p><span class="code">&lt;ol&gt;</span>: define una lista ordenada (ordered list),
-               numerada o alfabéticamente ordenada</p>  
+              <p><span class="code">&lt;ol&gt;</span>: Define una lista ordenada (ordered list),
+               numerada o alfabéticamente ordenada.</p>  
             </li>
 
              <li>
-              <p><span class="code">&lt;th&gt;</span>: define una celda de encabezado en una tabla</p>  
+              <p><span class="code">&lt;th&gt;</span>: Define una celda de encabezado en una tabla.</p>  
             </li>
 
             <li>
-              <p><span class="code">&lt;div&gt;</span>: es un contenedor genérico de nivel 
+              <p><span class="code">&lt;div&gt;</span>: Es un contenedor genérico de nivel 
                 de bloque utilizado para agrupar elementos, estructurar el diseño (layout) 
-                y aplicar estilos CSS o manipulación con JavaScript</p>  
+                y aplicar estilos CSS o manipulación con JavaScript.</p>  
             </li>     
             
             <li>
-              <p><span class="code">&lt;img&gt;</span>: se utiliza para incrustar imágenes en una página web</p>  
+              <p><span class="code">&lt;img&gt;</span>: Se utiliza para incrustar imágenes en una página web.</p>  
             </li>
 
             <li>
-              <p><span class="code">&lt;script<li>
-              <p><span class="code">&lt;th&gt;</span>: define una celda de encabezado en una tabla</p>  
-            </li>&gt;</span>: define una celda de encabezado en una tabla</p>  
+              <p><span class="code">&lt;script&gt;</span>: Se utiliza para insertar código de programación, principalmente 
+                JavaScript.</p>  
             </li>
             
+            <li>
+              <p><span class="code">&lt;hr&gt;</span>: Representa una ruptura temática entre párrafos o secciones.</p>  
+            </li>
+
+            <li>
+              <p><span class="code">&lt;li&gt;</span>: Se utiliza para organizar contenidos, mostrando viñetas por defecto 
+                en listas no ordenadas o números/letras en las ordenadas. Su etiqueta de cierre. </p>  
+            </li>
+
+            <li>
+              <p><span class="code">&lt;tr&gt;</span>: Se utiliza para definir una fila horizontal de celdas dentro de una tabla.</p>  
+            </li>
+            
+            <li>
+              <p><span class="code">&lt;form&gt;</span>: Crea secciones interactivas para recopilar y enviar datos 
+                del usuario a un servidor.</p>  
+            </li>
+    
+            <li>
+              <p><span class="code">&lt;label&gt;</span>: Define un texto descriptivo para elementos de formulario 
+                (input,select,textarea), mejorando la accesibilidad y la experiencia de usuario.</p>  
+            </li>
          </ul>               
 
             
-               
 
 
 
-
-               
 
     </article>
+    
+
     
 
     
