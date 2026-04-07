@@ -25,10 +25,6 @@ h2 {
     text-align: center;
 }
 
-li {
-    margin-bottom: 10px;
-}
-
 .integrantes { 
     text-align: center;
 }
@@ -44,7 +40,7 @@ para escribir las etiquetas*/
 }
 
 img{
-    max-width: 100;
+    max-width: 100%;
     height: auto;
     display: block;
 }
