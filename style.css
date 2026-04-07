@@ -6,10 +6,11 @@
     src: url(img/Astonpoliz.ttf);
 }
 
+/* Cuando vayan a cambiar el tamaño de algo usen porcentajes en vez de pixeles, para que se adapte mejor en el telefono */
+
 body {
     font-family: 'Astonpoliz';
-    font-size: 20px;
-    max-width: 100;
+    font-size: 130%;
     background-color: rgb(170, 169, 169);
 }
 
